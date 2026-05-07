@@ -6,20 +6,22 @@
 
 I'm a second-year Honours Mathematics student at the University of Waterloo, interested in autonomous systems, machine learning, robotics, and building useful AI products.
 
+I like working on systems that predict, simulate, or help people practice real-world behavior.
+
 Currently, I lead prediction work at WATonomous, where I work on trajectory forecasting for autonomous vehicles using C++, Python, ROS2, HD-map lanelets, and probabilistic intent modeling. I’m also doing research at Waterloo’s Vision and Image Processing Lab, working on 3D Gaussian Splatting assets inside physics simulation pipelines.
 
 Outside of robotics, I’m building Social Dojo, an AI social-skills training app with real-time voice conversations, speech analysis, and coaching feedback.
 
-## What I'm working on
+## Selected work
 
-- **Autonomous vehicle prediction**  
+- **WATonomous Prediction**  
   Building multi-modal trajectory prediction systems for self-driving cars.
 
-- **AI + simulation research**  
+- **VIP Lab Research**  
   Working with 3D Gaussian Splatting, point clouds, and deformable-object simulation.
 
 - **Social Dojo**  
-  Building an AI voice-based communication training platform.
+  Building an AI voice-based communication training platform with real-time voice conversations and coaching feedback.
 
 - **Competitive programming**  
   Meta Hacker Cup, CCC, and algorithmic problem solving.
@@ -33,10 +35,14 @@ Outside of robotics, I’m building Social Dojo, an AI social-skills training ap
 
 ## A few things I care about
 
-- Making autonomous systems safer and more intelligent
-- Building tools that help people practice real-world skills
 - Turning research ideas into working systems
+- Building products that feel useful, not just impressive
 - Learning fast through projects, competitions, and teams
+- Making autonomous systems more reliable and understandable
+
+## A bit more personally
+
+I like projects where the first version is messy, but real. I also enjoy hackathons, late-night debugging, and thinking through ideas with people who are building something ambitious.
 
 ## Connect
 
