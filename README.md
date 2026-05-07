@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&text=Ryan%20Lei&height=180&fontSize=48&desc=Math%20%40%20Waterloo%20%7C%20Autonomous%20Systems%20%7C%20AI%20Products&descSize=18" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Ryan%20Lei&fontSize=52&fontAlignY=35&desc=Math%20%7C%20Autonomous%20Systems%20%7C%20AI%20Products&descSize=18&descAlignY=55" />
 </p>
 
 # Hi, I'm Ryan 👋
 
-I'm a first-year Honours Mathematics student at the University of Waterloo, interested in autonomous systems, machine learning, robotics, and building useful AI products.
+I'm a second-year Honours Mathematics student at the University of Waterloo, interested in autonomous systems, machine learning, robotics, and building useful AI products.
 
 Currently, I lead prediction work at WATonomous, where I work on trajectory forecasting for autonomous vehicles using C++, Python, ROS2, HD-map lanelets, and probabilistic intent modeling. I’m also doing research at Waterloo’s Vision and Image Processing Lab, working on 3D Gaussian Splatting assets inside physics simulation pipelines.
 
@@ -12,16 +12,16 @@ Outside of robotics, I’m building Social Dojo, an AI social-skills training ap
 
 ## What I'm working on
 
-- 🚗 **Autonomous vehicle prediction**  
+- **Autonomous vehicle prediction**  
   Building multi-modal trajectory prediction systems for self-driving cars.
 
-- 🧠 **AI + simulation research**  
+- **AI + simulation research**  
   Working with 3D Gaussian Splatting, point clouds, and deformable-object simulation.
 
-- 🗣️ **Social Dojo**  
+- **Social Dojo**  
   Building an AI voice-based communication training platform.
 
-- 🧩 **Competitive programming**  
+- **Competitive programming**  
   Meta Hacker Cup, CCC, and algorithmic problem solving.
 
 ## Tech I use
