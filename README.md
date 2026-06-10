@@ -47,5 +47,5 @@ I like projects where the first version is messy, but real. I also enjoy hackath
 ## Connect
 
 - GitHub: [RyanL2](https://github.com/RyanL2)
-- LinkedIn: [Ryan Lei](https://linkedin.com/in/ryan-lei)
+- LinkedIn: [Ryan Lei](https://linkedin.com/in/lei-ryan)
 - Email: ryleitianebao@gmail.com
