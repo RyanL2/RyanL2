@@ -1,51 +1,33 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Ryan%20Lei&fontSize=52&fontAlignY=35&desc=Math%20%7C%20Autonomous%20Systems%20%7C%20AI%20Products&descSize=18&descAlignY=55" />
-</p>
+# Ryan Lei
 
-# Hi, I'm Ryan 👋
+I build **ML systems, compilers, and autonomous systems**.
 
-I'm a second-year Honours Mathematics student at the University of Waterloo, interested in autonomous systems, machine learning, robotics, and building useful AI products.
+Currently studying Mathematics at the University of Waterloo, leading prediction work at **WATonomous**, and doing research at Waterloo's **Vision and Image Processing Lab**.
 
-I like working on systems that predict, simulate, or help people practice real-world behavior.
+## Open source
 
-Currently, I lead prediction work at WATonomous, where I work on trajectory forecasting for autonomous vehicles using C++, Python, ROS2, HD-map lanelets, and probabilistic intent modeling. I’m also doing research at Waterloo’s Vision and Image Processing Lab, working on 3D Gaussian Splatting assets inside physics simulation pipelines.
+* **[TileLang](https://github.com/tile-ai/tilelang/pull/2956)** — Added `VerifyBufferInit`, a compiler analysis for detecting reads from uninitialized non-global buffers. **Merged upstream.**
 
-Outside of robotics, I’m building Social Dojo, an AI social-skills training app with real-time voice conversations, speech analysis, and coaching feedback.
+* **[PyTorch](https://github.com/pytorch/pytorch/pull/193277)** — Fixing a Dynamo correctness bug where custom `autograd.Function.jvp` behavior can be silently dropped under forward-mode AD. Added guarding and regression coverage. **Under review.**
 
-## Selected work
+## Building
 
-- **WATonomous Prediction**  
-  Building multi-modal trajectory prediction systems for self-driving cars.
+* **[comma Controls](https://github.com/RyanL2/commacontrol)**
+  Built GPU-accelerated optimization and MPC tooling for comma's Controls Challenge, then derived the benchmark's closed-form optimum and reached a **6.880 leaderboard score**. The project documents the optimization pipeline, parity testing, ablations, negative results, and benchmark analysis.
 
-- **VIP Lab Research**  
-  Working with 3D Gaussian Splatting, point clouds, and deformable-object simulation.
+* **WATonomous Prediction**
+  Working on multi-modal trajectory prediction for autonomous vehicles using **C++, Python, ROS2, HD-map lanelets, ONNX, and TensorRT**, including model integration and production prediction infrastructure.
 
-- **Social Dojo**  
-  Building an AI voice-based communication training platform with real-time voice conversations and coaching feedback.
+* **3DGS → Physics Simulation · VIP Lab**
+  Working on pipelines that convert **3D Gaussian Splatting** scenes into anisotropic particles for physics simulation, including C++ geometry tooling and large point-cloud processing.
 
-- **Competitive programming**  
-  Meta Hacker Cup, CCC, and algorithmic problem solving.
+* **Social Dojo**
+  Building an AI communication-training product using real-time voice conversations, speech analysis, and coaching feedback.
 
-## Tech I use
+## Tools
 
-**Languages:** C++, Python, TypeScript, JavaScript, Java, C#, SQL  
-**Robotics / ML:** ROS2, PyTorch, TensorRT, ONNX, Eigen, NumPy, Pandas  
-**Web / Infra:** React, Next.js, Node.js, AWS, Docker, GitHub Actions, PostgreSQL, MongoDB  
-**Other:** Scrapy, CMake, Linux, CI/CD
-
-## A few things I care about
-
-- Turning research ideas into working systems
-- Building products that feel useful, not just impressive
-- Learning fast through projects, competitions, and teams
-- Making autonomous systems more reliable and understandable
-
-## A bit more personally
-
-I like projects where the first version is messy, but real. I also enjoy hackathons, late-night debugging, and thinking through ideas with people who are building something ambitious.
+**C++ · Python · PyTorch · CUDA · ROS2 · TensorRT · ONNX · Triton · CMake · Linux · Docker · TypeScript · React**
 
 ## Connect
 
-- GitHub: [RyanL2](https://github.com/RyanL2)
-- LinkedIn: [Ryan Lei](https://linkedin.com/in/lei-ryan)
-- Email: ryleitianebao@gmail.com
+[LinkedIn](https://linkedin.com/in/lei-ryan) · [GitHub](https://github.com/RyanL2) · [Email](mailto:ryleitianebao@gmail.com)
