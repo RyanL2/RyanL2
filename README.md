@@ -4,12 +4,6 @@ I build **ML systems, compilers, and autonomous systems**.
 
 Currently studying Applied Mathematics/ML at the University of Waterloo, leading prediction work at **WATonomous**, and doing research at Waterloo's **Vision and Image Processing Lab**.
 
-## Open source
-
-* **[TileLang](https://github.com/tile-ai/tilelang/pull/2956)** — Added `VerifyBufferInit`, a compiler analysis for detecting reads from uninitialized non-global buffers. **Merged upstream.**
-
-* **[PyTorch](https://github.com/pytorch/pytorch/pull/193277)** — Fixing a Dynamo correctness bug where custom `autograd.Function.jvp` behavior can be silently dropped under forward-mode AD. Added guarding and regression coverage. **Under review.**
-
 ## Building
 
 * **[comma Controls](https://github.com/RyanL2/commacontrol)**
