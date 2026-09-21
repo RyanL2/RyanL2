@@ -2,7 +2,7 @@
 
 I build **ML systems, compilers, and autonomous systems**.
 
-Currently studying Mathematics at the University of Waterloo, leading prediction work at **WATonomous**, and doing research at Waterloo's **Vision and Image Processing Lab**.
+Currently studying Applied Mathematics/ML at the University of Waterloo, leading prediction work at **WATonomous**, and doing research at Waterloo's **Vision and Image Processing Lab**.
 
 ## Open source
 
