@@ -15,9 +15,6 @@ Currently studying Applied Mathematics/ML at the University of Waterloo, leading
 * **3DGS → Physics Simulation · VIP Lab**
   Working on pipelines that convert **3D Gaussian Splatting** scenes into anisotropic particles for physics simulation, including C++ geometry tooling and large point-cloud processing.
 
-* **Social Dojo**
-  Building an AI communication-training product using real-time voice conversations, speech analysis, and coaching feedback.
-
 ## Tools
 
 **C++ · Python · PyTorch · CUDA · ROS2 · TensorRT · ONNX · Triton · CMake · Linux · Docker · TypeScript · React**
