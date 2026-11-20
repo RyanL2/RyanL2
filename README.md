@@ -1,8 +1,8 @@
 # Ryan Lei
 
-I find and fix bugs where a compiler or cache **silently returns the wrong result**: a guard that misses what changed, a key that leaves out what matters, a buffer read before anything writes it. Each one below starts from a minimal repro and ends with a fail-before / pass-after regression test.
+Applied Mathematics / ML at the University of Waterloo. Prediction lead at WATonomous, research at Waterloo's Vision and Image Processing Lab.
 
-Applied Mathematics / ML at the University of Waterloo · prediction lead at **WATonomous** · research at Waterloo's **Vision and Image Processing Lab**.
+Most of my open-source work is fixing correctness bugs in ML compilers and developer tools.
 
 ## Merged upstream
 
@@ -33,15 +33,6 @@ Applied Mathematics / ML at the University of Waterloo · prediction lead at **W
 - **Fix:** `VerifyBufferInit`, a warning-only pass placed before `LowerTileOp` so tile-op writes are still visible. It adds one virtual (`GetReadBeforeWriteRegions`) that only the gemm ops override, and uses scope-aware ordering so warp-specialized producer/consumer kernels stay quiet.
 - **Validation:** 997 language tests with zero warnings; all 285 example files scanned.
 - **Result:** shipped **on by default**. It found 3 real read-before-writes in 2 examples, present since Jan and May 2025; on the first one, seeding the uninitialized buffer with `+inf` turns all 524,288 outputs into NaN.
-- **Follow-up (ownership):** I audited my own pass with hand-written kernels, filed [#3619](https://github.com/tile-ai/tilelang/issues/3619) (no source location for reads outside tile ops), and fixed it in [#3620](https://github.com/tile-ai/tilelang/pull/3620) (in review).
-
-### In review
-- **NVIDIA Warp:** CUDA-graph (APIC) capture replays the wrong overload when one capture launches several overloads of a generic kernel. I filed issue [#2140](https://github.com/NVIDIA/warp/issues/2140) and opened fixes [#2141](https://github.com/NVIDIA/warp/pull/2141) and [#2142](https://github.com/NVIDIA/warp/pull/2142).
-- **Cua:** Wayland presentation-timestamp evidence for the computer-use driver: [cua#4236](https://github.com/trycua/cua/pull/4236), for [#4012](https://github.com/trycua/cua/issues/4012).
-  - **Mechanism:** a fixture surface requests `wp_presentation.feedback` before each commit and accepts feedback only for its own update ID, so late or unknown callbacks can't claim the wrong row.
-  - **Clock domains:** it never subtracts timestamps across clock domains. A foreign clock is reported as a typed `clock_mismatch`, not as a latency.
-  - **Validation:** 25 fixture tests, including wrong and late feedback correlation, plus a native headless Sway 1.9 cell with 2 verified presentations, 1 no-op and 1 discarded superseded update.
-- **WATonomous:** MTR trajectory-prediction inference, lifecycle and quality harness: [wato_monorepo#476](https://github.com/WATonomous/wato_monorepo/pull/476).
 
 ## Projects
 
@@ -56,7 +47,7 @@ Applied Mathematics / ML at the University of Waterloo · prediction lead at **W
 - **Problem:** command-text allowlists can't tell `rm -rf build/` from a script that deletes your home directory.
 - **Implementation:** a Claude Code `PreToolUse` hook plus a daemon. It runs each command in a copy-on-write, network-less shadow of the workspace, extracts the effects, applies harm-policy rules, then commits exactly the reviewed change.
 - **Validation:** 16 isolation canaries, and a benchmark with template-disjoint splits plus pre-registered experiment cards (≥3 paired seeds per verdict).
-- **Status:** core v0.1 works on Linux/WSL2; the learned judge is still in research and not yet promoted into the shipped decision cascade.
+- **Result:** core v0.1 runs on Linux/WSL2.
 
 ## Tools
 
